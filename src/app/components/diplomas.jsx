@@ -91,7 +91,7 @@ let Diplomas = React.createClass({
 				<ListItem primaryText={msalSubTitle} leftAvatar={<Avatar style={{color:'red',backgroundColor:'white'}}>D</Avatar>} />
 				<ListDivider />
 				<ListItem primaryText={specialSubTitle} leftAvatar={<Avatar style={{color:'red',backgroundColor:'white'}}>C</Avatar>} open={true}>
-				  <ListItem primaryText={basicTitle} secondaryText="bbb"/>
+				  <ListItem primaryText={basicTitle} />
 				  <ListItem primaryText={python1Title} />
 				  <ListItem primaryText={python2Title} />
 				  <ListItem primaryText={python3Title} />
@@ -123,7 +123,7 @@ let Diplomas = React.createClass({
 				</FlatButton>
 			  </CardActions>
 			  <CardMedia expandable={true} >
-				<img src="../www/img/mepi.jpg"/>
+				<img src="img/mepi.jpg"/>
 			  </CardMedia>
 			</Card>
 			
@@ -140,7 +140,7 @@ let Diplomas = React.createClass({
 				</FlatButton>
 			  </CardActions>
 			  <CardMedia expandable={true} >
-				<img src="../www/img/msal.png"/>
+				<img src="img/msal.png"/>
 			  </CardMedia>
 			</Card>
 			
@@ -157,7 +157,7 @@ let Diplomas = React.createClass({
 				</FlatButton>
 			  </CardActions>
 			  <CardMedia expandable={true} >
-				<img src="../www/img/Certificate.png"/>
+				<img src="img/Certificate.png"/>
 			  </CardMedia>
 			 </Card>
 			  
@@ -174,7 +174,7 @@ let Diplomas = React.createClass({
 				</FlatButton>
 			  </CardActions>
 			  <CardMedia expandable={true} >
-				<img src="../www/img/Certificate_Python_1.png"/>
+				<img src="img/Certificate_Python_1.png"/>
 			  </CardMedia>
 			</Card>
 			
@@ -191,7 +191,7 @@ let Diplomas = React.createClass({
 				</FlatButton>
 			  </CardActions>
 			  <CardMedia expandable={true} >
-				<img src="../www/img/Certificate_Python_2.png"/>
+				<img src="img/Certificate_Python_2.png"/>
 			  </CardMedia>
 			</Card>
 			
@@ -208,7 +208,7 @@ let Diplomas = React.createClass({
 				</FlatButton>
 			  </CardActions>
 			  <CardMedia expandable={true} >
-				<img src="../www/img/Certificate_Python_3.png"/>
+				<img src="img/Certificate_Python_3.png"/>
 			  </CardMedia>
 			</Card>
 			
@@ -225,7 +225,7 @@ let Diplomas = React.createClass({
 				</FlatButton>
 			  </CardActions>
 			  <CardMedia expandable={true} >
-				<img src="../www/img/Certificate_HTML_1.png"/>
+				<img src="img/Certificate_HTML_1.png"/>
 			  </CardMedia>
 			</Card>
 			
@@ -242,7 +242,7 @@ let Diplomas = React.createClass({
 				</FlatButton>
 			  </CardActions>
 			  <CardMedia expandable={true} >
-				<img src="../www/img/Certificate_JS_1.png"/>
+				<img src="img/Certificate_JS_1.png"/>
 			  </CardMedia>
 			</Card>
 			
@@ -259,7 +259,7 @@ let Diplomas = React.createClass({
 				</FlatButton>
 			  </CardActions>
 			  <CardMedia expandable={true} >
-				<img src="../www/img/Certificate_JS_2.png"/>
+				<img src="img/Certificate_JS_2.png"/>
 			  </CardMedia>
 			</Card>
 			
@@ -276,7 +276,7 @@ let Diplomas = React.createClass({
 				</FlatButton>
 			  </CardActions>
 			  <CardMedia expandable={true} >
-				<img src="../www/img/Certificate_MySQL.png"/>
+				<img src="img/Certificate_MySQL.png"/>
 			  </CardMedia>
 			</Card>
 			
@@ -293,7 +293,7 @@ let Diplomas = React.createClass({
 				</FlatButton>
 			  </CardActions>
 			  <CardMedia expandable={true} >
-				<img src="../www/img/Certificate_PHP_1.png"/>
+				<img src="img/Certificate_PHP_1.png"/>
 			  </CardMedia>
 			</Card>
 			
@@ -310,7 +310,7 @@ let Diplomas = React.createClass({
 				</FlatButton>
 			  </CardActions>
 			  <CardMedia expandable={true} >
-				<img src="../www/img/Certificate_linux.png"/>
+				<img src="img/Certificate_linux.png"/>
 			  </CardMedia>
 			</Card>
 			
@@ -327,7 +327,7 @@ let Diplomas = React.createClass({
 				</FlatButton>
 			  </CardActions>
 			  <CardMedia expandable={true} >
-				<img src="../www/img/Certificate_statistics.png"/>
+				<img src="img/Certificate_statistics.png"/>
 			  </CardMedia>
 			</Card>
 			

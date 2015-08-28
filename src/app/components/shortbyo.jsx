@@ -51,12 +51,12 @@ let ShortByo = React.createClass({
 		];
 		
 	function mepiHtml() { switch(self.props.lang){
-		case "en": return {__html: '<b>MEPHI</b> - Moscow Engeneering Phisics Institute (1989-1995)<br /><i>(speciality - Solid State Physics)</i>'};
+		case "en": return {__html: '<b>MEPHI</b> - Moscow Engeneering Phisics Institute (1989-1995)<br /><i>(MSc - Solid State Physics)</i>'};
 		case "ru": return {__html: '<b>МИФИ</b> - Московский Инженерно-Физический Институт (1989-1995)<br /><i>(специальность - Физика Твердого Тела)</i>'}; 
 		}};
 	let mepi = <span dangerouslySetInnerHTML={mepiHtml()} />
 	function msalHtml() { switch(self.props.lang){
-		case "en": return {__html: '<b>MSAL</b> - Moscow State Academy of Law (2000-2004)<br /><i>(speciality - Civil Law)</i>'}; 
+		case "en": return {__html: '<b>MSAL</b> - Moscow State Academy of Law (2000-2004)<br /><i>(LLM - Civil Law)</i>'}; 
 		case "ru": return {__html: '<b>МГЮА</b> - Московская Государственная Юридическая Академия(2000-2004)<br /><i>(специальность - Гражданское право)</i>'}; 
 		}};
 	let msal = <span dangerouslySetInnerHTML={msalHtml()} />
@@ -118,7 +118,7 @@ let ShortByo = React.createClass({
 		  ref="photoDialog"
 		  actions={customActions}>
 			<Paper style={paperStyle} zDepth={3}>
-				<img style={imgStyle} src = "../www/img/elena.jpg" />
+				<img style={imgStyle} src = "img/elena.jpg" />
 			</Paper>
 		</Dialog>
 		

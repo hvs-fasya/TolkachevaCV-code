@@ -36,11 +36,11 @@ let FullByo = React.createClass({
 	};
 	
 	function mepiHtml() { switch(self.props.lang){
-		case "en": return {__html: '<b>MEPHI</b> - Moscow Engeneering Phisics Institute (1989-1995)<br /><i>(speciality - Solid State Physics)</i></br>'};
+		case "en": return {__html: '<b>MEPHI</b> - Moscow Engeneering Phisics Institute (1989-1995)<br /><i>(MSc - Solid State Physics)</i></br>'};
 		case "ru": return {__html: '<b>МИФИ</b> - Московский Инженерно-Физический Институт (1989-1995)<br /><i>(специальность - Физика Твердого Тела)</i></br>'}; 
 		}};
 	function msalHtml() { switch(self.props.lang){
-		case "en": return {__html: '<b>MSAL</b> - Moscow State Academy of Law (2000-2004)<br /><i>(speciality - Civil Law)</i>'}; 
+		case "en": return {__html: '<b>MSAL</b> - Moscow State Academy of Law (2000-2004)<br /><i>(LLM - Civil Law)</i>'}; 
 		case "ru": return {__html: '<b>МГЮА</b> - Московская Государственная Юридическая Академия(2000-2004)<br /><i>(специальность - Гражданское право)</i>'}; 
 		}};
 	let mepi = <div><span dangerouslySetInnerHTML={mepiHtml()} /><span dangerouslySetInnerHTML={msalHtml()} /></div>;
@@ -89,12 +89,12 @@ let FullByo = React.createClass({
 	let rowDataSecond = [
 		{title: {content: '', style: titlesStyle }, texts: {content: '', style: textsStyle}},
 		{title: {content: edu, style: titlesStyle }, texts: {content: mepi, style: textsStyle}},
-		{title: {content: '1996-1997', style: titlesStyle }, texts: {content: dina, style: textsStyle}},
-		{title: {content: '1997-1998', style: titlesStyle }, texts: {content: dln, style: textsStyle}},
-		{title: {content: '1998-2000', style: titlesStyle }, texts: {content: st, style: textsStyle}},
-		{title: {content: '2000-2002', style: titlesStyle }, texts: {content: reg, style: textsStyle}},
+		{title: {content: '2005-2015', style: titlesStyle }, texts: {content: amr, style: textsStyle}},
 		{title: {content: '2002-2005', style: titlesStyle }, texts: {content: simba, style: textsStyle}},
-		{title: {content: '2005-2015', style: titlesStyle }, texts: {content: amr, style: textsStyle}}
+		{title: {content: '2000-2002', style: titlesStyle }, texts: {content: reg, style: textsStyle}},
+		{title: {content: '1998-2000', style: titlesStyle }, texts: {content: st, style: textsStyle}},
+		{title: {content: '1997-1998', style: titlesStyle }, texts: {content: dln, style: textsStyle}},
+		{title: {content: '1996-1997', style: titlesStyle }, texts: {content: dina, style: textsStyle}}
 		];
 		
 	this.state = {
@@ -151,7 +151,7 @@ let FullByo = React.createClass({
 		  ref="photoDialog"
 		  actions={customActions}>
 			<Paper style={paperStyle} zDepth={3}>
-				<img style={imgStyle} src = "../www/img/elena.jpg" />
+				<img style={imgStyle} src = "img/elena.jpg" />
 			</Paper>
 		</Dialog>
 		

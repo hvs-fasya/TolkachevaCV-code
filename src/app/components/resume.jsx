@@ -75,7 +75,7 @@ let Resume = React.createClass({
 				{ route: 'fullbio', text: 'Jobs' },
 				{ type: MenuItem.Types.SUBHEADER, text: 'Links' },
 					{ type: MenuItem.Types.LINK, payload: 'http://li-ning.msk.ru', text: 'Web-site "Li-Ning"' },
-					{ type: MenuItem.Types.LINK, payload: 'https://www.google.com', text: '"Li-Ning" (code)', disabled: true }
+					{ type: MenuItem.Types.LINK, payload: 'https://github.com/hvs-fasya/lining.git', text: '"Li-Ning" (code)' }
 				]);
 		case "ru": return ([
 				{ route: 'shortbio', text: 'Основные сведения' },
@@ -83,7 +83,7 @@ let Resume = React.createClass({
 				{ route: 'fullbio', text: 'Опыт работы' },
 				{ type: MenuItem.Types.SUBHEADER, text: 'Ссылки' },
 					{ type: MenuItem.Types.LINK, payload: 'http://li-ning.msk.ru', text: 'Сайт "Li-Ning"' },
-					{ type: MenuItem.Types.LINK, payload: 'https://www.google.com', text: 'Код сайта "Li-Ning"', disabled: true }
+					{ type: MenuItem.Types.LINK, payload: 'https://github.com/hvs-fasya/lining.git', text: 'Код сайта "Li-Ning"' }
 				]);
 		}
 	},
