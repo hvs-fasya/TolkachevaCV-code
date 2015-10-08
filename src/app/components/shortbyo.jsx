@@ -36,18 +36,25 @@ let ShortByo = React.createClass({
 		whiteSpace: 'normal'
 	};
   
+	function contactsHtml() {
+		return {__html: 'hvs-fasya@mail.ru<br /> +7(916)377-76-04'};
+		};
+	let contacts = <span dangerouslySetInnerHTML={contactsHtml()} />
+
 	let rowData = this.props.lang == 'en' ? [
 		{title: {content: '', style: titlesStyle }, texts: {content: '', style: textsStyle}},
 		{selected: true, title: {content: 'Name:', style: titlesStyle }, texts: {content: fio, style: textsStyle}},
 		{title: {content: 'Date of Birth:', style: titlesStyle }, texts: {content: '22 April 1973', style: textsStyle}},
 		{title: {content: 'Place of Birth:', style: titlesStyle }, texts: {content: 'Moscow, USSR', style: textsStyle}},
-		{title: {content: 'Location:', style: titlesStyle }, texts: {content: 'Moscow, Russian Federation', style: textsStyle}}
+		{title: {content: 'Location:', style: titlesStyle }, texts: {content: 'Moscow, Russian Federation', style: textsStyle}},
+		{title: {content: 'Contacts:', style: titlesStyle }, texts: {content: contacts, style: textsStyle}}
 		] : [
 		{title: {content: '', style: titlesStyle }, texts: {content: '', style: textsStyle}},
 		{selected: true, title: {content: 'ФИО:', style: titlesStyle }, texts: {content: fio, style: textsStyle}},
 		{title: {content: 'Дата рождения:', style: titlesStyle }, texts: {content: '22 Апреля 1973', style: textsStyle}},
 		{title: {content: 'Место рождения:', style: titlesStyle }, texts: {content: 'Москва, СССР', style: textsStyle}},
-		{title: {content: 'Местожительства:', style: titlesStyle }, texts: {content: 'Москва, РФ', style: textsStyle}}
+		{title: {content: 'Местожительства:', style: titlesStyle }, texts: {content: 'Москва, РФ', style: textsStyle}},
+		{title: {content: 'Контакты:', style: titlesStyle }, texts: {content: contacts, style: textsStyle}}
 		];
 		
 	function mepiHtml() { switch(self.props.lang){
